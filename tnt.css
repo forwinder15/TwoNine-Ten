@@ -3,6 +3,12 @@ html, body {
   font-family: 'Eczar', serif;
 }
 
+
+.motto{
+text-align: left;
+width: 50%;
+}
+
 .parallax {
   /* The image used */
   background-image: url(arches-architectural-design-architecture-135018.jpg);
@@ -49,19 +55,20 @@ html, body {
 
 }
 
-p{
-  margin-top: 5em;
-}
 
 h3 {
   color: white;
-  text-align: left;
   font-size: 4em;
   margin-top: 3em;
 }
 
 button {
   font-size: 1.1em;
+  background-color: #02182B !important;
+  border-color: white;
+  position: absolute;
+  left: 28em;
+  top: 23%;
 }
 
 .words {
@@ -91,7 +98,6 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  padding-top: 80px;
   height: 1900px;
 }
 
@@ -163,18 +169,13 @@ header {
 }
 
 
-
-.navbar .logo img {
-  display: none;
-}
-
 .scrolled {
   transition: 0.5s ease;
 }
 
 .scrolled.navbar {
   height: 50px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #02182B;
   transition: 0.5s ease;
 }
 
@@ -214,8 +215,6 @@ header {
 
 @media screen and (max-width: 450px){
     h3 {
-        font-size: 2em;
+        font-size: .5em;
     }
-
-
 }
