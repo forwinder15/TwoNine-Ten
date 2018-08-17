@@ -124,7 +124,6 @@ header {
   margin: 0;
   padding: 0;
   display: inline-block;
-  float: right;
   margin-right: 5%;
 
 }
@@ -211,15 +210,12 @@ header {
 
 @media screen and (max-width: 450px){
    .logo{
-     visibility: hidden;
+     position: absolute;
    }
 
   .nav{
-      position: absolute;
+      visibility: hidden;
     }
-    .item{
-      text-align: right;
-      font-size: 8px;
     }
     h3 {
         font-size: 2em;
