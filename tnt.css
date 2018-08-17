@@ -3,12 +3,6 @@ html, body {
   font-family: 'Eczar', serif;
 }
 
-
-.motto{
-text-align: left;
-width: 50%;
-}
-
 .parallax {
   /* The image used */
   background-image: url(arches-architectural-design-architecture-135018.jpg);
@@ -19,6 +13,29 @@ width: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.motto {
+  text-align: left;
+  width: 50%;
+}
+
+h3 {
+  color: white;
+  font-size: 4em;
+  margin-top: 3em;
+}
+
+button {
+  font-size: 1.1em;
+  background-color: #02182B !important;
+  border-color: white;
+}
+
+.words {
+  position: relative;
+  margin-top: 20em;
+  color: white;
 }
 
 .seo {
@@ -52,51 +69,20 @@ width: 50%;
   height: 500px;
   color: black;
   margin-top: 3em;
-
-}
-
-
-h3 {
-  color: white;
-  font-size: 4em;
-  margin-top: 3em;
-}
-
-button {
-  font-size: 1.1em;
-  background-color: #02182B !important;
-  border-color: white;
-}
-
-.words {
-  position: relative;
-  margin-top: 20em;
-  color: white;
 }
 
 .seo, .cust {
   color: #33393e;
   font-size: 2em;
-
-
 }
 
-#div{
-    background-color: white;
-    opacity: .75;
-    padding: 15px 0;
+.picw {
+  background-color: white;
+  opacity: .75;
+  padding: 15px 0;
 }
 
-
-
-body {
-  position: absolute;
-  top: 0;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 1900px;
-}
+/* Navbar and changes on scrolled funciton */
 
 header {
   position: fixed;
@@ -125,7 +111,6 @@ header {
   padding: 0;
   display: inline-block;
   margin-right: 5%;
-
 }
 
 .navbar .nav .item {
@@ -164,7 +149,6 @@ header {
   transition: 0.5s ease;
 }
 
-
 .scrolled {
   transition: 0.5s ease;
 }
@@ -198,28 +182,24 @@ header {
   transition: 0.5s ease;
 }
 
+/* Responsivness */
 
-
-@media screen and (max-width: 700px){
-    h3 {
-        width: 60%;
-        font-size: 3em;
-    }
+@media screen and (max-width: 700px) {
+  h3 {
+    width: 60%;
+    font-size: 3em;
+  }
 }
 
-
-@media screen and (max-width: 450px){
-   .logo{
-     position: absolute;
-   }
-
-  .nav{
-      visibility: hidden;
-    }
-    }
-    h3 {
-        font-size: 2em;
-        margin-top: 70%;
-        width: 100%;
-    }
+@media screen and (max-width: 450px) {
+  .logo {
+    position: absolute;
+  }
+  .nav {
+    visibility: hidden;
+  }
+  .motto {
+    font-size: 8px;
+    width: 100%;
+  }
 }
