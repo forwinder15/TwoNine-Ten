@@ -194,7 +194,7 @@ font-size: 10px;
     background-color: #02182B;
   }
 .nav{
-position: absolute;
+position: relative;
 font-size: 10px;
 background-color: #02182B;
 }
