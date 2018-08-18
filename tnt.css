@@ -65,7 +65,7 @@ h3 {
   color: white;
   text-shadow: 4px 4px black;
   text-align: center;
-  padding-top: 4em;
+  padding-top: 15%;
 }
 
 
@@ -182,13 +182,11 @@ header {
   .logo {
     position: absolute;
   }
-  .nav {
-    visibility: hidden;
-  }
+
   .motto {
     font-size: 12px;
     width: 100%;
-    margin-top: 3em;
-    text-align: center;
+    margin-top: 3.5em;
+    text-align: left;
   }
 }
