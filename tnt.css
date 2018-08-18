@@ -176,13 +176,25 @@ header {
     width: 60%;
     font-size: 3em;
   }
+  .logo {
+    text-align: left;
+    font-size: 10px;
+  }
+.nav{
+text-align: right;
+font-size: 10px;
+}
 }
 
 @media screen and (max-width: 450px) {
   .logo {
-    position: absolute;
+    text-align: left;
+    font-size: 10px;
   }
-
+.nav{
+text-align: right;
+font-size: 10px;
+}
   .motto {
     font-size: 12px;
     width: 100%;
