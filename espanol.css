@@ -1,0 +1,178 @@
+html, body {
+  background-color: #02182B;
+  font-family: 'Eczar', serif;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url(arches-architectural-design-architecture-135018.jpg);
+  /* Set a specific height */
+  height: 700px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+h3 {
+  color: white;
+  font-size: 4em;
+  margin-top: 3em;
+  text-align: center;
+  text-shadow: 4px 4px black;
+
+}
+
+
+.words {
+  position: relative;
+  margin-top: 20em;
+  color: white;
+}
+
+.seo {
+  background-image: url(https://images.pexels.com/photos/860379/pexels-photo-860379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  height: 500px;
+  width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 150px;
+
+}
+
+.cust {
+  background-image: url(https://images.pexels.com/photos/305832/pexels-photo-305832.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  height: 500px;
+  width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 150px;
+
+}
+
+.seo, .cust {
+  font-size: 3em;
+  color: white;
+  text-shadow: 4px 4px black;
+  text-align: center;
+  padding-top: 15%;
+}
+
+
+/* Navbar and changes on scrolled funciton */
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+@supports (position: sticky) {
+  body {
+    padding-top: 0;
+  }
+  header {
+    position: sticky;
+  }
+}
+
+
+
+.navbar .nav {
+
+  margin-right: 5%;
+}
+
+.navbar .nav .item {
+  color: white;
+  font-size: 22px;
+  padding: 5px;
+  margin-right: 20px;
+  transition: 0.5s ease;
+}
+
+.navbar .item .contact {
+  color: white;
+  padding: 5px;
+  transition: 0.5s ease;
+}
+
+.navbar .item a {
+  color: inherit;
+}
+
+.navbar-brand {
+  float: left;
+  color: white;
+  margin-top: 5px;
+  margin-left: 5%;
+  font-size: 2.5em;
+  transition: 0.5s ease;
+}
+
+.scrolled {
+  transition: 0.5s ease;
+}
+
+.scrolled.navbar {
+  height: 50px;
+  background-color: #02182B;
+  transition: 0.5s ease;
+}
+
+.scrolled.navbar .nav .item {
+  line-height: 40px;
+  transition: 0.5s ease;
+}
+
+.scrolled.navbar .nav .item .contact {
+  height: 40px;
+  line-height: 30px;
+  padding: 5px;
+  border-radius: 2px;
+  transition: 0.5s ease;
+}
+
+ .scrolled .navbar .logo {
+  float: left;
+  margin-top: 10px;
+  margin-left: 5%;
+  font-size: 2.5em;
+  transition: 0.5s ease;
+}
+
+/* Responsivness */
+
+@media screen and (max-width: 700px) {
+  h3 {
+
+    font-size: 3em;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+
+  h3 {
+    font-size: 25px;
+    margin-top: 3.5em;
+  }
+.navbar{
+  display: inline-block;
+  float: none;
+  text-align: center;
+}
+
+}
