@@ -1,9 +1,5 @@
-$(document).ready(function () {
-  $(window).on('scroll', function () {
-    if (Math.round($(window).scrollTop()) > 100) {
-      $('.navbar').addClass('scrolled');
-    } else {
-      $('.navbar').removeClass('scrolled');
-    }
-  });
+//OPEN NAV ON HAMBURGUER CLICK
+$(".hamburguer").click(function(){
+  $("nav").toggleClass("open");
+  $(this).toggleClass("toggle");
 });

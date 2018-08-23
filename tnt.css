@@ -19,15 +19,23 @@ html, body {
 
 
 
-h3 {
+.land {
   color: white;
-  font-size: 4em;
-  margin-top: 3em;
+  font-size: 9em;
+  padding-top: 2em;
   text-align: center;
   text-shadow: 4px 4px black;
 
 }
 
+h3 {
+  color: white;
+  font-size: 2em;
+  margin-top: 1em;
+  text-align: center;
+  text-shadow: 4px 4px black;
+
+}
 
 .words {
   position: relative;
@@ -70,109 +78,80 @@ h3 {
 }
 
 
-/* Navbar and changes on scrolled funciton */
-
-header {
+.hamburguer {
   position: fixed;
-  top: 0;
+  outline: none;
+  top: 1em;
+  right: 0;
+  border: 0;
+  margin: 40px;
+  z-index: 999;
+}
+.hamburguer:hover {
+  cursor: pointer;
+}
+.hamburguer .bar1, .hamburguer .bar2, .hamburguer .bar3 {
+  width: 44px;
+  height: 5px;
+  background-color: white;
+  margin: 12px 0;
+  transition-duration: 0.4s;
+}
+
+.toggle .bar1 {
+  transform: rotate(-40deg) translate(-1px, 1px);
+  -webkit-transform: rotate(-40deg) translate(-1px, 1px);
+  background: white;
+}
+
+.toggle .bar2 {
+  opacity: 0;
+}
+
+.toggle .bar3 {
+  transform: rotate(40deg) translate(-8px, -8px);
+  -webkit-transform: rotate(40deg) translate(-8px, -8px);
+  background: white;
+}
+
+nav {
+  background: #02182B;
+  opacity: 0;
+  visibility: hidden;
   width: 100%;
-  z-index: 10;
+  height: 100vh;
+  z-index: 999;
+  transition-duration: .5s;
+  backface-visibility: none;
 }
-
-@supports (position: sticky) {
-  body {
-    padding-top: 0;
-  }
-  header {
-    position: sticky;
-  }
-}
-
-
-
-.navbar .nav {
-
-  margin-right: 5%;
-}
-
-.navbar .nav .item {
-  color: white;
-  font-size: 22px;
-  padding: 5px;
-  margin-right: 20px;
-  transition: 0.5s ease;
-}
-
-.navbar .item .contact {
-  color: white;
-  padding: 5px;
-  transition: 0.5s ease;
-}
-
-.navbar .item a {
-  color: inherit;
-}
-
-.navbar-brand {
-  float: left;
-  color: white;
-  margin-top: 5px;
-  margin-left: 5%;
-  font-size: 2.5em;
-  transition: 0.5s ease;
-}
-
-.scrolled {
-  transition: 0.5s ease;
-}
-
-.scrolled.navbar {
-  height: 50px;
-  background-color: #02182B;
-  transition: 0.5s ease;
-}
-
-.scrolled.navbar .nav .item {
-  line-height: 40px;
-  transition: 0.5s ease;
-}
-
-.scrolled.navbar .nav .item .contact {
-  height: 40px;
-  line-height: 30px;
-  padding: 5px;
-  border-radius: 2px;
-  transition: 0.5s ease;
-}
-
- .scrolled .navbar .logo {
-  float: left;
-  margin-top: 10px;
-  margin-left: 5%;
-  font-size: 2.5em;
-  transition: 0.5s ease;
-}
-
-/* Responsivness */
-
-@media screen and (max-width: 700px) {
-  h3 {
-
-    font-size: 3em;
-  }
-
-}
-
-@media screen and (max-width: 450px) {
-
-  h3 {
-    font-size: 25px;
-    margin-top: 3.5em;
-  }
-.navbar{
-  display: inline-block;
-  float: none;
+nav ul {
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding-top: 120px;
   text-align: center;
+  list-style: none;
+}
+nav ul li a {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  transition-duration: .6s;
+  font-size: 22px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background: white;
+  cursor: pointer;
+  color: #306db6;
 }
 
+.open {
+  visibility: visible;
+  opacity: 1;
 }
