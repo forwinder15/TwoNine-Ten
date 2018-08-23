@@ -59,6 +59,7 @@ h3 {
   position: relative;
   margin-top: 20em;
   color: white;
+  z-index: -1;
 }
 
 .seo {
@@ -113,7 +114,7 @@ h3 {
   height: 5px;
   background-color: white;
   margin: 12px 0;
-  transition-duration: 0.4s;
+  transition-duration: .7s;
 }
 
 .toggle .bar1 {
@@ -185,6 +186,7 @@ nav ul li a:hover {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+          z-index: -1;
 }
 .get-in-touch .title {
   text-align: center;
