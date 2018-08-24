@@ -1,6 +1,7 @@
 html, body {
   background-color: #02182B;
   font-family: 'Eczar', serif;
+
 }
 
 .parallax {
@@ -24,7 +25,7 @@ html, body {
   font-size: 9em;
   padding-top: 2em;
   text-align: center;
-  text-shadow: 4px 4px black;
+  text-shadow: 4px 4px #333;
 
 }
 @media screen and (max-width: 400px) {
@@ -51,7 +52,7 @@ h3 {
   font-size: 2em;
   margin-top: 1em;
   text-align: center;
-  text-shadow: 4px 4px black;
+  text-shadow: 2px 2px #333;
 
 }
 
@@ -60,6 +61,7 @@ h3 {
   margin-top: 20em;
   color: white;
   z-index: -1;
+  text-shadow: 2px 2px #333;
 }
 
 .seo {
@@ -195,6 +197,7 @@ nav ul li a:hover {
   font-size: 36px;
   line-height: 48px;
   padding-bottom: 48px;
+  margin-top: 148px;
 }
 
 .contact-form .form-field {
@@ -244,11 +247,17 @@ nav ul li a:hover {
   padding: 8px 16px;
   border: none;
   cursor: pointer;
+  transition-duration: .5s;
+  margin-top: 30px;
 }
+
 
 .submit-btn:hover{
     transform: scale(1.2) perspective(1px);
     transition-duration: .5s;
+    background-color: white;
+    color: #000;
+    text-shadow: #333 1px 1px;
   }
 
   .range-slider {
