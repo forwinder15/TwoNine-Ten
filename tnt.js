@@ -6,12 +6,11 @@ $(".hamburger").click(function(){
 
 $(".contact").click(function(){
   $("nav").toggleClass("open");
-  $(this).toggleClass("toggle");
+  $('.hamburger').toggleClass("toggle");
 });
-
 $(".start").click(function(){
-  $("nav").removeClass('open');
-  $(this).toggleClass('toggle')
+  $("nav").toggleClass('open');
+  $('.hamburger').toggleClass('toggle')
 });
 
 $( '.js-input' ).keyup(function() {
