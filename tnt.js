@@ -1,7 +1,17 @@
-//OPEN NAV ON HAMBURGUER CLICK
-$(".hamburguer").click(function(){
+//OPEN NAV ON HAMBURGER CLICK
+$(".hamburger").click(function(){
   $("nav").toggleClass("open");
   $(this).toggleClass("toggle");
+});
+
+$(".contact").click(function(){
+  $("nav").toggleClass("open");
+  $(this).toggleClass("toggle");
+});
+
+$(".start").click(function(){
+  $("nav").removeClass('open');
+  $(this).toggleClass('toggle')
 });
 
 $( '.js-input' ).keyup(function() {

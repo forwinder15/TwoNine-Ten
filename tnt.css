@@ -99,7 +99,7 @@ h3 {
 }
 
 
-.hamburguer {
+.hamburger {
   position: fixed;
   outline: none;
   top: 1em;
@@ -108,10 +108,10 @@ h3 {
   margin: 40px;
   z-index: 999;
 }
-.hamburguer:hover {
+.hamburger:hover {
   cursor: pointer;
 }
-.hamburguer .bar1, .hamburguer .bar2, .hamburguer .bar3 {
+.hamburger .bar1, .hamburger .bar2, .hamburger .bar3 {
   width: 44px;
   height: 5px;
   background-color: white;
