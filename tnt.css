@@ -72,6 +72,7 @@ text-transform: uppercase;
 .words {
   position: relative;
   margin-top: 20em;
+  margin-bottom: 20em;
   color: white;
   z-index: -1;
   text-shadow: 2px 2px #333;
@@ -229,7 +230,19 @@ p{
 	outline:none;
 }
 
+/* Services   */
 
+.row{
+  color: #fff;
+  text-align: center;
+}
+
+.serv{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
 
 
 
