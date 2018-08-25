@@ -1,29 +1,6 @@
-@media screen and (max-width: 400px) {
-    .land {
-        font-size: 3.2em;
-        text-align: center;
-        padding-top: 4em;
-    }
-
-.picw{
-  font-size: .8em;
-}
-  .hamburger .bar1, .hamburger .bar2, .hamburger .bar3 {
-    width: 22px;
-    height: 3px;
-
-}
-.contact-form .input-text{
-  width: 300px;
-}
-
-}
-
-
 html, body {
   background-color: #02182B;
   font-family: 'Eczar', serif;
-
 }
 
 .parallax {
@@ -38,24 +15,20 @@ html, body {
   background-size: cover;
 }
 
-
-
-
-
 .land {
   color: white;
   font-size: 9em;
   padding-top: 2em;
   text-align: center;
   text-shadow: 4px 4px #333;
-text-transform: uppercase;
+  text-transform: uppercase;
 }
 
-.border{
-	background: #FFFFFF;
-    height: 4px;
-    width: 60%;
-    margin: 0 auto;
+.border {
+  background: #FFFFFF;
+  height: 4px;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .motto {
@@ -66,7 +39,6 @@ text-transform: uppercase;
   text-align: center;
   text-transform: uppercase;
   text-shadow: 2px 2px #333;
-
 }
 
 .words {
@@ -80,7 +52,6 @@ text-transform: uppercase;
   text-shadow: 2px 2px #333;
 }
 
-
 .hamburger {
   position: fixed;
   outline: none;
@@ -90,9 +61,11 @@ text-transform: uppercase;
   margin: 40px;
   z-index: 999;
 }
+
 .hamburger:hover {
   cursor: pointer;
 }
+
 .hamburger .bar1, .hamburger .bar2, .hamburger .bar3 {
   width: 44px;
   height: 5px;
@@ -126,6 +99,7 @@ nav {
   height: 100%;
   transition-duration: .5s;
 }
+
 nav ul {
   width: 100%;
   height: 100%;
@@ -137,6 +111,7 @@ nav ul {
   text-align: center;
   list-style: none;
 }
+
 nav ul li a {
   display: block;
   width: 100%;
@@ -147,6 +122,7 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
 }
+
 nav ul li a:hover {
   background: white;
   cursor: pointer;
@@ -158,96 +134,99 @@ nav ul li a:hover {
   opacity: 1;
 }
 
-p{
+p {
   color: white;
   padding-top: 40px;
 }
 
+.welcome-left h2, .heading h3, .top-grid h2 {
+  font-size: 3em;
+  color: #fff;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 
+.welcome-left h5, .welcome-right h5 {
+  font-size: .9em;
+  color: #fff;
+  text-decoration: none;
+  margin: 1em 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1.8em;
+}
 
+.welcome-right h3 {
+  font-size: 2em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 
-.welcome-left h2,.heading h3,.top-grid h2{
-	font-size: 3em;
-    color: #fff;
-    text-decoration: none;
-    padding: 0;
-    margin: 0;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+.welcome-left p, .welcome-right p {
+  color: #fff;
+  font-size: .9em;
+  margin: 0;
+  line-height: 1.8em;
 }
-.welcome-left h5,.welcome-right h5{
-    font-size: .9em;
-    color: #fff;
-    text-decoration: none;
-    margin: 1em 0;
-    text-transform: uppercase;
-    font-weight: 600;
-    line-height: 1.8em;
+
+.welcome-left p span, .welcome-right p span {
+  margin: 1em 0 0 0;
+  display: block;
 }
-.welcome-right h3{
-	font-size: 2em;
-    color: #FFFFFF;
-    text-decoration: none;
-    padding: 0;
-    margin: 0;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+
+.welcome-img {
+  background: url(https://substantial.com/assets/images/blog/2015/05/materialdesign_blog.png) no-repeat 0px -160px;
+  background-size: cover;
+  min-height: 100px;
 }
-.welcome-left p,.welcome-right p{
-	color:#fff;
-	font-size:.9em;
-	margin:0;
-	line-height:1.8em;
-}
-.welcome-left p span,.welcome-right p span{
-	margin:1em 0 0 0;
-	display:block;
-}
-.welcome-img{
-	background: url(https://substantial.com/assets/images/blog/2015/05/materialdesign_blog.png) no-repeat 0px -160px;
-    background-size: cover;
-    min-height: 100px;
-}
+
 .button {
-    margin: 2em 0 1em 0;
+  margin: 2em 0 1em 0;
 }
+
 .button a {
-    color: #FFFFFF;
-    font-size: .9em;
-    text-decoration: none;
-    padding: .5em 2em;
-    background: #ff9800;
-    text-transform: uppercase;
-    text-align: center;
-    border: solid 1px #ff9800;
-    transition-duration: .5s;
+  color: #FFFFFF;
+  font-size: .9em;
+  text-decoration: none;
+  padding: .5em 2em;
+  background: #ff9800;
+  text-transform: uppercase;
+  text-align: center;
+  border: solid 1px #ff9800;
+  transition-duration: .5s;
 }
+
 .button a:hover {
   transform: scale(1.2) perspective(1px);
   transition-duration: .5s;
-    border: solid 1px #fff;
-    color: #212121;
+  border: solid 1px #fff;
+  color: #212121;
 }
-.button a:focus{
-	outline:none;
+
+.button a:focus {
+  outline: none;
 }
 
 /* Services   */
 
-.row{
+.row {
   color: #fff;
   text-align: center;
 }
 
-.serv{
+.serv {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   margin-bottom: 30px;
 }
-
-
-
 
 /* Contact form */
 
@@ -259,9 +238,10 @@ p{
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-          z-index: -1;
+  transform: translateY(-50%);
+  z-index: -1;
 }
+
 .get-in-touch .title {
   text-align: center;
   text-transform: uppercase;
@@ -276,6 +256,7 @@ p{
   position: relative;
   margin: 32px 0;
 }
+
 .contact-form .input-text {
   height: 36px;
   color: white;
@@ -287,13 +268,16 @@ p{
   line-height: 26px;
   font-weight: 400;
 }
+
 .contact-form .input-text:focus {
   outline: none;
 }
-.contact-form .input-text:focus + .label, .contact-form .input-text.not-empty + .label {
+
+.contact-form .input-text:focus+.label, .contact-form .input-text.not-empty+.label {
   -webkit-transform: translateY(-24px);
-          transform: translateY(-24px);
+  transform: translateY(-24px);
 }
+
 .contact-form .label {
   position: absolute;
   left: 20px;
@@ -309,117 +293,141 @@ p{
 }
 
 .contact-form .submit-btn {
-    color: #FFFFFF;
-    font-size: .9em;
-    text-decoration: none;
-    padding: .5em 2em;
-    background: #ff9800;
-    text-transform: uppercase;
-    text-align: center;
-    border: solid 1px #ff9800;
-    transition-duration: .5s;
+  color: #FFFFFF;
+  font-size: .9em;
+  text-decoration: none;
+  padding: .5em 2em;
+  background: #ff9800;
+  text-transform: uppercase;
+  text-align: center;
+  border: solid 1px #ff9800;
+  transition-duration: .5s;
 }
+
 .submit-btn:hover {
   transform: scale(1.2) perspective(1px);
   transition-duration: .5s;
-    border: solid 1px #fff;
-    color: #212121;
-}
-.button a:focus{
-	outline:none;
+  border: solid 1px #fff;
+  color: #212121;
 }
 
+.button a:focus {
+  outline: none;
+}
 
+.range-slider {
+  margin: 60px 0 0 0%;
+}
 
+.range-slider {
+  width: 100%;
+}
 
-  .range-slider {
-    margin: 60px 0 0 0%;
-  }
+.range-slider__range {
+  -webkit-appearance: none;
+  width: calc(100% - (73px));
+  height: 10px;
+  border-radius: 5px;
+  background: #d7dcdf;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
 
-  .range-slider {
-    width: 100%;
-  }
+.range-slider__range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #2c3e50;
+  cursor: pointer;
+  transition: background .15s ease-in-out;
+}
 
-  .range-slider__range {
-    -webkit-appearance: none;
-    width: calc(100% - (73px));
-    height: 10px;
-    border-radius: 5px;
-    background: #d7dcdf;
-    outline: none;
-    padding: 0;
-    margin: 0;
-  }
-  .range-slider__range::-webkit-slider-thumb {
-    -webkit-appearance: none;
-            appearance: none;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background: #2c3e50;
-    cursor: pointer;
-    transition: background .15s ease-in-out;
-  }
-  .range-slider__range::-webkit-slider-thumb:hover {
-    background: #1abc9c;
-  }
-  .range-slider__range:active::-webkit-slider-thumb {
-    background: #1abc9c;
-  }
-  .range-slider__range::-moz-range-thumb {
-    width: 20px;
-    height: 20px;
-    border: 0;
-    border-radius: 50%;
-    background: #2c3e50;
-    cursor: pointer;
-    transition: background .15s ease-in-out;
-  }
-  .range-slider__range::-moz-range-thumb:hover {
-    background: #1abc9c;
-  }
-  .range-slider__range:active::-moz-range-thumb {
-    background: #1abc9c;
-  }
-  .range-slider__range:focus::-webkit-slider-thumb {
-    box-shadow: 0 0 0 3px #fff, 0 0 0 6px #1abc9c;
-  }
+.range-slider__range::-webkit-slider-thumb:hover {
+  background: #1abc9c;
+}
 
-  .range-slider__value {
-    display: inline-block;
-    position: relative;
-    width: 60px;
-    color: #fff;
-    line-height: 20px;
-    text-align: center;
-    border-radius: 3px;
-    background: #2c3e50;
-    padding: 5px 10px;
-    margin-left: 8px;
-  }
-  .range-slider__value:after {
-    position: absolute;
-    top: 8px;
-    left: -7px;
-    width: 0;
-    height: 0;
-    border-top: 7px solid transparent;
-    border-right: 7px solid #2c3e50;
-    border-bottom: 7px solid transparent;
-    content: '';
-  }
+.range-slider__range:active::-webkit-slider-thumb {
+  background: #1abc9c;
+}
 
-  ::-moz-range-track {
-    background: #d7dcdf;
-    border: 0;
-  }
+.range-slider__range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border: 0;
+  border-radius: 50%;
+  background: #2c3e50;
+  cursor: pointer;
+  transition: background .15s ease-in-out;
+}
 
-  input::-moz-focus-inner,
-  input::-moz-focus-outer {
-    border: 0;
-  }
+.range-slider__range::-moz-range-thumb:hover {
+  background: #1abc9c;
+}
 
-.budget{
+.range-slider__range:active::-moz-range-thumb {
+  background: #1abc9c;
+}
+
+.range-slider__range:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 3px #fff, 0 0 0 6px #1abc9c;
+}
+
+.range-slider__value {
+  display: inline-block;
+  position: relative;
+  width: 60px;
+  color: #fff;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 3px;
+  background: #2c3e50;
+  padding: 5px 10px;
+  margin-left: 8px;
+}
+
+.range-slider__value:after {
+  position: absolute;
+  top: 8px;
+  left: -7px;
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-right: 7px solid #2c3e50;
+  border-bottom: 7px solid transparent;
+  content: '';
+}
+
+::-moz-range-track {
+  background: #d7dcdf;
+  border: 0;
+}
+
+input::-moz-focus-inner, input::-moz-focus-outer {
+  border: 0;
+}
+
+.budget {
   font-size: 20px;
   padding-bottom: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  .land {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 4em;
+  }
+  .picw {
+    font-size: .8em;
+  }
+  .hamburger .bar1, .hamburger .bar2, .hamburger .bar3 {
+    width: 22px;
+    height: 3px;
+  }
+  .contact-form .input-text {
+    width: 300px;
+  }
 }
