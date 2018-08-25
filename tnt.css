@@ -73,6 +73,8 @@ text-transform: uppercase;
   position: relative;
   margin-top: 20em;
   margin-bottom: 20em;
+  margin-left: 4em;
+  margin-right: 4em;
   color: white;
   z-index: -1;
   text-shadow: 2px 2px #333;
